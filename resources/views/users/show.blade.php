@@ -24,13 +24,13 @@
                           {!! Form::label('status', 'ステータス:') !!}
                           {!! Form::textarea('status', old('status'), ['class' => 'form-control', 'rows' => '1']) !!}
                   </div>      
-                     <div class="form-group">
+                  <div class="form-group">
                           {!! Form::label('content', 'タスク:') !!}
                           {!! Form::textarea('content', old('content'), ['class' => 'form-control', 'rows' => '2']) !!}
-                     </div>      
-                     <div class="form-group">      
+                  </div>      
+                  <div class="form-group">      
                       　 　{!! Form::submit('Post', ['class' => 'btn btn-primary btn-block']) !!}
-                      </div>
+                  </div>
                   {!! Form::close() !!}
             @endif
             @if (count($tasks) > 0)
