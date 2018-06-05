@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTasksTable88888 extends Migration
+class CreateTasksTable extends Migration
 {
     /**
      * Run the migrations.
